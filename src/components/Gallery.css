@@ -1,0 +1,97 @@
+.gallery{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.gallery-heading{
+    margin-top: 3vh;
+    padding: 2vh;
+    width: 50%;
+    z-index: 1;
+}
+
+.gallery-heading h1{
+    font-size: 5vh;
+}
+
+.gallery-heading p{
+    position: relative;
+    margin-top: 7vh;
+    padding: 5%;
+    background-color: rgb(38, 38, 38);
+    color: azure;
+    border-radius: 2vh;
+    width: 100%;
+    height: 55%;
+    font-size: 1.2vh;
+    
+}
+
+
+.gallery-heading p::before,
+.gallery-heading p::after {
+  content: '';
+  position: absolute;
+  z-index: -2; /* Ensures the shapes are behind the paragraph */
+  border-radius: 50%;
+  opacity: 1; /* Adjust opacity as needed */
+}
+
+.gallery-heading p::before {
+  width: 10vh;
+  height: 10vh;
+  background-color: rgba(79, 108, 249, 0.5); /* Semi-transparent red */
+  top: -5vh;
+  left: -5vh;
+}
+
+
+.gallery-heading p::after {
+  width: 10vh;
+  height: 10vh;
+  background-color: rgb(20, 3, 153, 0.2); /* Semi-transparent blue */
+  bottom: -5vh;
+  right: -5vh;
+}
+
+.gallery-container {
+    max-width: 800px; /* Adjust width as needed */
+    margin: 0 auto;
+    padding: 2vh;
+    z-index: 1;
+  }
+  
+  .slide-item {
+    position: relative;
+    height: 50vh; /* Adjust height as needed */
+  }
+  
+  .slide-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1vh;
+  }
+  
+  .slide-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 1vh;
+    color: white;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease;
+  }
+  
+  .slide-item:hover .slide-overlay {
+    opacity: 1; /* Show overlay on hover */
+  }
+  
+  .slide-overlay h3,
+  .slide-overlay p {
+    margin: 1vh 0;
+  }
+  

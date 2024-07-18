@@ -1,0 +1,153 @@
+/* src/components/Header.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+  }
+  
+  /* Base styles */
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 2vw;
+    background-color: rgba(99, 99, 99, 0.3);
+    color: black;
+    width: 100%;    
+  }
+  
+  .logo img {
+    height: 8vh;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center; /* Center the nav items */
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    position: relative;
+    margin: 0 2vw; /* Adjust spacing between nav items */
+  }
+  
+  .nav-item a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.2vw;
+    display: block;
+    padding: 1vh 2vw; /* Ensure clickable area */
+    position: relative; /* Ensure z-index works */
+  }
+  
+  .nav-item:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background on hover */
+  }
+  
+  .nav-item a:hover {
+    color: #000000; /* Change text color on hover */
+  }
+  
+  .call-us-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 1vh 2vw;
+    font-size: 1.2vw;
+    margin: 0 2vw;
+    cursor: pointer;
+    border-radius: 0.5vh;
+  }
+  
+  .call-us-btn:hover {
+    background-color: #2f7932;
+  }
+  
+  /* Dropdown menu styles */
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+   
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent black background */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100%; /* Make dropdown wider */
+    padding: 0; /* Remove padding to remove default list styles */
+  }
+  
+  .dropdown-item {
+
+    padding: 1vh 1vw;
+    list-style: none; /* Remove bullet points */
+  }
+  
+  .dropdown-item a {
+    
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-size: 1vw;
+  }
+  
+  .dropdown-item a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Display the dropdown menu when the parent nav-item is hovered */
+  
+  .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Media queries for responsiveness */
+  
+  @media (max-width: 750px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav {
+      width: 100%;
+      justify-content: space-between;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .nav-item {
+      margin: 0vh 0;
+    }
+  
+    .call-us-btn {
+      width: 100%;
+      margin: 2vh 0 0;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .nav-item a {
+      font-size: 3vw;
+    }
+  
+    .call-us-btn {
+      font-size: 3vw;
+      padding: 2vh 2vw;
+    }
+  }
+  

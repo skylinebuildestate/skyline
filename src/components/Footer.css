@@ -1,0 +1,153 @@
+/* Footer.css */
+
+.footer {
+    background-color: #040404; /* Default background color for the footer */
+    height: 75vh;
+    border-radius: 5vh 5vh 0 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  
+.back-photo {
+    flex: 1;
+    height: 30%; /* 30% of the footer height */
+    border-radius: 5vh 5vh 0 0; /* Rounded corners, adjust as needed */
+    overflow: hidden; /* Ensure the boxes are contained within */
+    background-size: cover;
+    position: relative; 
+  }
+  
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(1000vh); /* Move down initially */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Move up to original position */
+    }
+  }
+
+.box-container {
+    position: absolute;
+    margin-top: -10vh;
+    width: 100%; 
+    display: flex;
+    justify-content: space-around;
+ 
+  }
+
+
+
+
+.box {
+    width: 15vw;
+    height: 15vh;
+    padding:2vh;
+    background-color: azure; 
+    border-radius: 1vh; 
+    overflow: hidden;
+  }
+
+.box h1{
+    font-size: 1vh;
+    margin-top: 1vh;
+}
+.box p{
+    font-size: 1vh;
+    color: black;
+    margin-top: 1vh;
+}
+
+.box i{
+    font-size: 5vh;
+    padding: 1vh;
+    color: black;
+}
+  
+.box .soc-icon{
+    
+    margin-top: 2vh;
+    padding: 0.1vh;
+    color: black;
+    font-size: 3vw;
+
+}
+
+.footer-bottom{
+    margin-top: 10vh;
+    background-color: rgb(37, 37, 37);
+    color: azure;
+    width: 70%;
+    margin-left: 15%;
+    height: 50%;
+
+    display: flex;
+
+}
+
+.contact-us-form,
+.map {
+  width: 50%;
+
+}
+
+.contact-us-form {
+  text-align: left; /* Align form elements to the left */
+  padding: 3vh;
+  
+}
+
+.contact-us-form form {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column; /* Stack input fields vertically */
+}
+
+
+.contact-us-form input,
+.contact-us-form textarea{
+  width: 100%;
+  margin-bottom: 0.5vh;
+  padding: 1vh;
+
+  border-radius: 1vh;
+}
+
+.contact-us-form button {
+    background-color: #4CAF50;
+    padding: 0.5vh;
+    font-size: 2vh;
+    border-radius: 5vh;
+    color: azure;
+    transition: background-color 0.3s ease;
+  }
+.contact-us-form button:hover {
+    background-color:  #2f7932;
+    
+  
+  }
+
+.map {
+  position: relative;
+  overflow: hidden;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .footer-bottom {
+    flex-direction: column; /* Stack sections vertically on smaller screens */
+    height: auto; /* Auto height to accommodate content */
+  }
+
+  .contact-us-form,
+  .map {
+    width: 100%;
+  }
+}
