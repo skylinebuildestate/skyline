@@ -8,13 +8,9 @@ function Career() {
   return (
     <>
       <div className='career'>
-        
-        <EmailTemplate />
-
+          <EmailTemplate />
       </div>
       <Team />
-  
- 
     </>
     
   );

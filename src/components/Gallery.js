@@ -7,12 +7,10 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the ca
 
 
 const Gallery = () => {
-  
+
   // Sample project data (replace with your actual data)
   const projects = [
-    { id: 1, name: 'Skyline Fresco', type: 'Studio Apt.', imageUrl: require('./Gallery/skylineFresco.jpg') },
-    { id: 2, name: 'Aroha', type: '3 BHK', imageUrl: require('./Gallery/Aroha.jpg') },
-    { id: 3, name: 'Divine Colonia', type: '2 BHK', imageUrl: require('./Gallery/divineColonia.jpg') },
+    { id: 1, name: 'Skyline Fresco', type: 'Studio Apt.', imageUrl: require('./Gallery/skylineFresco.jpg') }
     // Add more projects as needed
   ];
 
