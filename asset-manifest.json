@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/skyline/static/css/main.2f012e48.css",
-    "main.js": "/skyline/static/js/main.508af8be.js",
+    "main.css": "/skyline/static/css/main.9f21b305.css",
+    "main.js": "/skyline/static/js/main.9597be18.js",
     "reactPlayerYouTube.js": "/skyline/static/js/reactPlayerYouTube.531585be.chunk.js",
     "reactPlayerSoundCloud.js": "/skyline/static/js/reactPlayerSoundCloud.4ee94330.chunk.js",
     "reactPlayerVimeo.js": "/skyline/static/js/reactPlayerVimeo.7e31af21.chunk.js",
@@ -21,8 +21,8 @@
     "static/media/skylineFresco.jpg": "/skyline/static/media/skylineFresco.5be31b0d0b25c2dfe0e9.jpg",
     "static/media/hemant_bansal.png": "/skyline/static/media/hemant_bansal.739eabeccbbd2a1c4f6c.png",
     "index.html": "/skyline/index.html",
-    "main.2f012e48.css.map": "/skyline/static/css/main.2f012e48.css.map",
-    "main.508af8be.js.map": "/skyline/static/js/main.508af8be.js.map",
+    "main.9f21b305.css.map": "/skyline/static/css/main.9f21b305.css.map",
+    "main.9597be18.js.map": "/skyline/static/js/main.9597be18.js.map",
     "reactPlayerYouTube.531585be.chunk.js.map": "/skyline/static/js/reactPlayerYouTube.531585be.chunk.js.map",
     "reactPlayerSoundCloud.4ee94330.chunk.js.map": "/skyline/static/js/reactPlayerSoundCloud.4ee94330.chunk.js.map",
     "reactPlayerVimeo.7e31af21.chunk.js.map": "/skyline/static/js/reactPlayerVimeo.7e31af21.chunk.js.map",
@@ -39,7 +39,7 @@
     "reactPlayerPreview.86d933fb.chunk.js.map": "/skyline/static/js/reactPlayerPreview.86d933fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f012e48.css",
-    "static/js/main.508af8be.js"
+    "static/css/main.9f21b305.css",
+    "static/js/main.9597be18.js"
   ]
 }
