@@ -1,6 +1,6 @@
 // Footer.js
 
-import React, { useEffect, useState }  from 'react';
+import React from 'react';
 import './Footer.css'; // Import your CSS file for styling
 import photo from './Footer.jpg'; // Import your photo from the components folder
 

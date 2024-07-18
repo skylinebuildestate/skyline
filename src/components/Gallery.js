@@ -10,6 +10,8 @@ const Gallery = () => {
 
   // Sample project data (replace with your actual data)
   const projects = [
+    { id: 1, name: 'Skyline Fresco', type: 'Studio Apt.', imageUrl: require('./Gallery/skylineFresco.jpg') },
+    { id: 1, name: 'Skyline Fresco', type: 'Studio Apt.', imageUrl: require('./Gallery/skylineFresco.jpg') },
     { id: 1, name: 'Skyline Fresco', type: 'Studio Apt.', imageUrl: require('./Gallery/skylineFresco.jpg') }
     // Add more projects as needed
   ];
@@ -32,7 +34,6 @@ const Gallery = () => {
         <Carousel
             autoPlay
             infiniteLoop
-            showArrows
             showStatus={false}
             showThumbs={false}
             interval={3000} // Auto-slide interval in milliseconds (5 seconds)

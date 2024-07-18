@@ -1,5 +1,7 @@
 ## to make changes
 
+## make the elements-> components for deploying on github
+
 git add .
 git commit -m "first commit"
 git branch -M main 

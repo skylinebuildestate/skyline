@@ -50,6 +50,17 @@
 
 .member-desc h3{
     font-size: 2vh;
+    font-weight: 500;
+}
+
+.member-desc p{
+    font-size: 1.5vh;
+    font-weight: 100;
+}
+
+.member-desc h5{
+    font-size: 1.5vh;
+    font-weight: 200;
 }
 
 .member-socials{
