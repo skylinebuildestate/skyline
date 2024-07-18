@@ -24,8 +24,6 @@ const Header = () => {
             {dropdownOpen && (
               <ul className="dropdown-menu">
                 <li className="dropdown-item"><a href="https://drive.google.com/file/d/1CVuETCcF7lLnj5c0IS9FMavC3ru2zwix/view?usp=sharing">SKYLINE FRESCO</a></li>
-                <li className="dropdown-item"><a href="https://drive.google.com/file/d/1naWrXQDQhLXZXXeYiCFXhZSk1ngBFHYR/view?usp=sharing">AROHA</a></li>
-                <li className="dropdown-item"><a href="https://drive.google.com/file/d/1yOgRkBokqLtHeSrr1ACyUxogNWk3kedk/view?usp=sharing">DIVINE COLONIA</a></li>
               </ul>
             )}
           </li>
