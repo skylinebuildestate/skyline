@@ -40,9 +40,10 @@ const Footer = () => {
         <div className="box-container">
 
               <div className="box">
-                <a href='https://maps.app.goo.gl/1LUcR7bJgG37KmWd8'><i className="fas fa-map-marker-alt"></i></a>
+                <a href='https://maps.app.goo.gl/Pnhj6w666pCjgzYJ8'><i className="fas fa-map-marker-alt"></i></a>
                 <h1>ADDRESS</h1>
-                <p> Sanganer Rd.</p>
+                <a href='https://maps.app.goo.gl/Pnhj6w666pCjgzYJ8'><p> 69/7 New Sanganer Road, Near Dhanvantari Hospital, Mansarovar, Jaipur, Rajasthan 302015, IN </p> 
+                </a>
               </div>
 
               <div className="box">
@@ -81,7 +82,7 @@ const Footer = () => {
 
                     <input type="email" id="email" name="email" placeholder='email' required />
 
-                    <textarea id="message" name="message" placeholder='what are you looking for?' rows="4" required></textarea>
+                    <input id="message" name="message" placeholder='what are you looking for?' rows="4" required></input>
 
                     <button type="submit">Submit</button>
                 </form>

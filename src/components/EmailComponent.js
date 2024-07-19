@@ -13,10 +13,11 @@ const EmailTemplate = () => {
         <div className='career-mail'>       
             <div className='mail-us'>
                 <h2>Want to join us?</h2>
+                <p>Drop us a mail with your details and resume. (Do not change the subject in the mail)</p>
+                
                 <a href={mailtoLink}>
                     <button className='mail-us-btn'>APPLY</button>
                 </a>
-                <p>Drop us a mail with your details and resume. (Do not change the subject in the mail)</p>
                 
             </div>
         </div>

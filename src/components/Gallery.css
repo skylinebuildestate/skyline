@@ -1,30 +1,33 @@
 .gallery{
     display: flex;
     justify-content: flex-end;
+    color: black;
 
 }
 
 .gallery-heading{
-    margin-top: 3vh;
-    padding: 2vh;
-    width: 50%;
+    margin-top: 2vw;
+    padding: 2vw;
+    width: 40%;
+    height: 100%;
     z-index: 1;
 }
 
 .gallery-heading h1{
-    font-size: 5vh;
+    font-size: 200%;
 }
 
 .gallery-heading p{
     position: relative;
-    margin-top: 7vh;
+    margin-top: 5vw;
     padding: 5%;
-    background-color: rgb(38, 38, 38);
-    color: azure;
-    border-radius: 2vh;
+    background-color: #2E3944;
+    color: white;
+    border-radius: 1vw;
     width: 100%;
-    height: 55%;
-    font-size: 1.2vh;
+    height: 50%;
+    font-size: 60%;
+    font-weight: 10;
     
 }
 
@@ -41,7 +44,7 @@
 .gallery-heading p::before {
   width: 10vh;
   height: 10vh;
-  background-color: rgba(79, 108, 249, 0.5); /* Semi-transparent red */
+  background-color: rgba(18, 78, 102, 0.5); /* Semi-transparent red */
   top: -5vh;
   left: -5vh;
 }
@@ -50,7 +53,7 @@
 .gallery-heading p::after {
   width: 10vh;
   height: 10vh;
-  background-color: rgb(20, 3, 153, 0.2); /* Semi-transparent blue */
+  background-color: rgb(116, 141, 146, 0.2); /* Semi-transparent blue */
   bottom: -5vh;
   right: -5vh;
 }
@@ -71,7 +74,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 1vh;
+    border-radius: 1vw;
   }
   
   .slide-overlay {

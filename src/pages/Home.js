@@ -1,7 +1,7 @@
 import './Home.css';
 import React from 'react';
 import ReactPlayer from 'react-player';
-import homeVideo from './homeVedio.mp4';
+import homeVideo from './homeVideo.mp4';
 import Gallery from '../components/Gallery.js';
 import Team from '../components/team.js';
 

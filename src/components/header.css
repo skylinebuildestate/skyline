@@ -1,29 +1,24 @@
-/* src/components/Header.css */
 
-/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
   }
   
-  /* Base styles */
   
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2vh 2vw;
-    background-color: rgba(99, 99, 99, 0.3);
-    color: black;
+    padding: 1vw 2vw;
     width: 100%; 
-    height:  10vh auto;
-    
-   
+    background-color: #D3D9D4;
+    color: black;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
   }
   
   .logo img {
-    height: 8vh;
+    height: 5vw;
   }
   
   .nav {
@@ -46,14 +41,14 @@
   .nav-item a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: 1vw;
     display: block;
-    padding: 1vh 2vw; /* Ensure clickable area */
+    padding: 1vw 2vw; /* Ensure clickable area */
     position: relative; /* Ensure z-index works */
   }
   
   .nav-item:hover {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background on hover */
+    background-color:#748D92; /* Semi-transparent background on hover */
     border-radius: 1vw;
   }
   
@@ -62,18 +57,17 @@
   }
   
   .call-us-btn {
-    background-color: #000000;
+    background-color: #124E66;
     border: none;
     color: white;
-    padding: 1vh 2vw;
-    font-size: 1.2vw;
-  
+    padding: 1vw 2vw;
+    font-size: 1vw ;
     cursor: pointer;
-    border-radius: 0.5vh;
+    border-radius: 1vw;
   }
   
   .call-us-btn:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #2E3944;
   }
   
   /* Dropdown menu styles */
@@ -81,34 +75,29 @@
   .dropdown-menu {
     display: none;
     position: absolute;
-   
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgb(0, 0, 0); /* Transparent black background */
+    background-color: rgba(116, 141, 146, 0.75);; /* Transparent black background */
     border-radius: 1vw;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
     z-index: 1;
     width: 100%; /* Make dropdown wider */
     padding: 0; /* Remove padding to remove default list styles */
   }
   
   .dropdown-item {
-    
-    padding: 1vh 1vw;
+    padding: 1vw 1vw;
     list-style: none; /* Remove bullet points */
   }
   
   .dropdown-item a {
-    
-    color: rgb(255, 255, 255);
+    color: black;
     text-decoration: none;
     font-size: 1vw;
   }
-  
+
   .dropdown-item a:hover {
-    background-color: #555;
-    color: white;
     border-radius: 1vw;
   }
   
@@ -142,7 +131,7 @@
   
     .call-us-btn {
       width: 100%;
-      margin: 2vh 0 0;
+      margin: 2vw 0 0;
     }
   }
   
@@ -152,8 +141,8 @@
     }
   
     .call-us-btn {
-      font-size: 3vw;
-      padding: 2vh 2vw;
+      font-size: 1vw;
+      padding: 2vw 2vw;
     }
   }
   

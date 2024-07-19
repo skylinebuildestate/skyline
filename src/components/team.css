@@ -1,18 +1,15 @@
 
 
 .team-container{
-  
     height: max-content;
-    background-color: azure;
-    padding-bottom: 3vh;
-    padding-top: 3vh;
-    
-
-
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    color: black;
 }
 
 .team-container h1{
     margin-bottom: 2vh;
+    font-size: 150%;
 }
 
 .cards{
@@ -26,19 +23,21 @@
 .team-members{
     
     width: 40vw;
+    height: auto;
     display: flex;
-    background-color: rgb(46, 46, 46);
+    background-color: #212A31;
     padding: 1vh;
     text-align: left;
     border-radius: 1vw;
     margin-left: 1vh;
     margin-right:1vh;
     margin-bottom: 2vh;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.75);
 }
 
 .team-members img{
     width: 20vw;
-    height: 30vh;
+    height: 20vw;
     border-radius: 1vw;
 }
 
@@ -49,18 +48,18 @@
 }
 
 .member-desc h3{
-    font-size: 2vh;
-    font-weight: 500;
+    font-size: 1.5vw;
+   
 }
 
 .member-desc p{
-    font-size: 1.5vh;
-    font-weight: 100;
+    font-size: 1vw;
+
 }
 
 .member-desc h5{
-    font-size: 1.5vh;
-    font-weight: 200;
+    font-size: 1vw;
+
 }
 
 .member-socials{
@@ -71,7 +70,7 @@
 
 .soc-icon{
     margin-right: 0.5vh;
-    font-size: 3vh;
+    font-size: 2vw;
     color: white;
 
 }
