@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/skyline/static/css/main.9f21b305.css",
-    "main.js": "/skyline/static/js/main.9597be18.js",
+    "main.css": "/skyline/static/css/main.0ce6a233.css",
+    "main.js": "/skyline/static/js/main.909a0c52.js",
     "reactPlayerYouTube.js": "/skyline/static/js/reactPlayerYouTube.531585be.chunk.js",
     "reactPlayerSoundCloud.js": "/skyline/static/js/reactPlayerSoundCloud.4ee94330.chunk.js",
     "reactPlayerVimeo.js": "/skyline/static/js/reactPlayerVimeo.7e31af21.chunk.js",
@@ -16,13 +16,15 @@
     "reactPlayerKaltura.js": "/skyline/static/js/reactPlayerKaltura.a0667671.chunk.js",
     "reactPlayerFilePlayer.js": "/skyline/static/js/reactPlayerFilePlayer.3f04c40c.chunk.js",
     "reactPlayerPreview.js": "/skyline/static/js/reactPlayerPreview.86d933fb.chunk.js",
-    "static/media/homeVedio.mp4": "/skyline/static/media/homeVedio.83e85f221cb7518beb7e.mp4",
+    "static/media/homeVideo.mp4": "/skyline/static/media/homeVideo.2646a8c5310313f92166.mp4",
+    "static/media/skylineFresco2.jpg": "/skyline/static/media/skylineFresco2.ee88b6fe7e0ac5a3a220.jpg",
     "static/media/Footer.jpg": "/skyline/static/media/Footer.6ee575ac5c21c68a2261.jpg",
     "static/media/skylineFresco.jpg": "/skyline/static/media/skylineFresco.5be31b0d0b25c2dfe0e9.jpg",
+    "static/media/skylineFresco3.jpg": "/skyline/static/media/skylineFresco3.8972eea0c8764b23f85a.jpg",
     "static/media/hemant_bansal.png": "/skyline/static/media/hemant_bansal.739eabeccbbd2a1c4f6c.png",
     "index.html": "/skyline/index.html",
-    "main.9f21b305.css.map": "/skyline/static/css/main.9f21b305.css.map",
-    "main.9597be18.js.map": "/skyline/static/js/main.9597be18.js.map",
+    "main.0ce6a233.css.map": "/skyline/static/css/main.0ce6a233.css.map",
+    "main.909a0c52.js.map": "/skyline/static/js/main.909a0c52.js.map",
     "reactPlayerYouTube.531585be.chunk.js.map": "/skyline/static/js/reactPlayerYouTube.531585be.chunk.js.map",
     "reactPlayerSoundCloud.4ee94330.chunk.js.map": "/skyline/static/js/reactPlayerSoundCloud.4ee94330.chunk.js.map",
     "reactPlayerVimeo.7e31af21.chunk.js.map": "/skyline/static/js/reactPlayerVimeo.7e31af21.chunk.js.map",
@@ -39,7 +41,7 @@
     "reactPlayerPreview.86d933fb.chunk.js.map": "/skyline/static/js/reactPlayerPreview.86d933fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f21b305.css",
-    "static/js/main.9597be18.js"
+    "static/css/main.0ce6a233.css",
+    "static/js/main.909a0c52.js"
   ]
 }
