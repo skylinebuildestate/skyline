@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/skyline/static/css/main.0ce6a233.css",
+    "main.css": "/skyline/static/css/main.bfac699e.css",
     "main.js": "/skyline/static/js/main.909a0c52.js",
     "reactPlayerYouTube.js": "/skyline/static/js/reactPlayerYouTube.531585be.chunk.js",
     "reactPlayerSoundCloud.js": "/skyline/static/js/reactPlayerSoundCloud.4ee94330.chunk.js",
@@ -23,7 +23,7 @@
     "static/media/skylineFresco3.jpg": "/skyline/static/media/skylineFresco3.8972eea0c8764b23f85a.jpg",
     "static/media/hemant_bansal.png": "/skyline/static/media/hemant_bansal.739eabeccbbd2a1c4f6c.png",
     "index.html": "/skyline/index.html",
-    "main.0ce6a233.css.map": "/skyline/static/css/main.0ce6a233.css.map",
+    "main.bfac699e.css.map": "/skyline/static/css/main.bfac699e.css.map",
     "main.909a0c52.js.map": "/skyline/static/js/main.909a0c52.js.map",
     "reactPlayerYouTube.531585be.chunk.js.map": "/skyline/static/js/reactPlayerYouTube.531585be.chunk.js.map",
     "reactPlayerSoundCloud.4ee94330.chunk.js.map": "/skyline/static/js/reactPlayerSoundCloud.4ee94330.chunk.js.map",
@@ -41,7 +41,7 @@
     "reactPlayerPreview.86d933fb.chunk.js.map": "/skyline/static/js/reactPlayerPreview.86d933fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ce6a233.css",
+    "static/css/main.bfac699e.css",
     "static/js/main.909a0c52.js"
   ]
 }
