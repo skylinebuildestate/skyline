@@ -53,9 +53,9 @@ const Footer = () => {
               </div>
         
               <div className="box">
-                <a href = 'tel:+919784581277'><i className="fas fa-phone"></i></a>
+                <a href = 'tel:+9172406 77677'><i className="fas fa-phone"></i></a>
                 <h1>CONTACT NO.</h1>
-                <a href = 'tel:+919784581277'><p>+91 9784581277</p></a>
+                <a href = 'tel:+9172406 77677'><p>+91 72406 77677</p></a>
               </div>
 
               <div className="box">
@@ -82,9 +82,13 @@ const Footer = () => {
 
                     <input type="email" id="email" name="email" placeholder='email' required />
 
-                    <input id="message" name="message" placeholder='what are you looking for?' rows="4" required></input>
+                    <select id="message" name="message" required>
+                      <option value = " ">What are you looking for?</option>
+                      <option value ="SkylineFresco"> Skyline Fresco </option>
 
-                    <button type="submit">Submit</button>
+                    </select>
+
+                    <button type="submit">SUBMIT</button>
                 </form>
 
             </div>
@@ -95,9 +99,9 @@ const Footer = () => {
                 height="100%"
                 frameBorder="0"
                 style={{ border: 0 }}
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.5448697335087!2d75.6912666758129!3d26.854424662592436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4b24812edb99%3A0xc119300dcf9655a6!2sSkyline%20Fresco!5e0!3m2!1sen!2sin!4v1720858001594!5m2!1sen!2sin" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.461403017873!2d75.75572507502179!3d26.857077976680408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5001830f841%3A0xd4ded6c423cfc99a!2sSkyline%20Buildestates%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1733729860358!5m2!1sen!2sin" >
                 allowFullScreen
-            ></iframe>
+            </iframe>
             </div>
 
         </div>

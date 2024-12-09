@@ -7,10 +7,12 @@ import EmailTemplate from '../components/EmailComponent.js';
 function Career() {
   return (
     <>
+     
       <div className='career'>
+      <Team />
           <EmailTemplate />
       </div>
-      <Team />
+      
     </>
     
   );

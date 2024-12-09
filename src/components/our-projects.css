@@ -1,0 +1,62 @@
+
+/* CSS (OurProjects.css) */
+.our-projects-section {
+  padding: 3vh;
+
+  text-align: center;
+}
+.section-title {
+  font-size: 3vw;
+  color: black;
+
+}
+.project-types, .project-locations {
+  margin-top: 2vh;
+}
+.gallery-pro {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+.gallery-item {
+  width: 30%;
+  text-align: center;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 1vw;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.gallery-item h4 {
+  margin-top: 1vh;
+  font-size: 1.2rem;
+  color: black;
+}
+.project-locations {
+  margin-top: 50px;
+}
+.project-locations h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+.locations-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.2rem;
+  color: #555;
+}
+.locations-list li {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-item {
+    width: 100%;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+}

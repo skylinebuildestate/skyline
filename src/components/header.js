@@ -27,10 +27,10 @@ const Header = () => {
               </ul>
             )}
           </li>
-          <li className="nav-item"><Link to="/career">CAREER</Link></li>
+          <li className="nav-item"><Link to="/career">ABOUT US</Link></li>
         </ul>
       </nav>
-      <a href = 'tel:+919784581277'><button className="call-us-btn">CALL US</button></a>
+      <a href = 'tel:+9172406 77677'><button className="call-us-btn">CALL US</button></a>
     </header>
   );
 };

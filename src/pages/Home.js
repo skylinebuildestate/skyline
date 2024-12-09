@@ -1,26 +1,23 @@
 import './Home.css';
 import React from 'react';
-import ReactPlayer from 'react-player';
-import homeVideo from './homeVideo.mp4';
-import Gallery from '../components/Gallery.js';
-import Team from '../components/team.js';
 
+import Gallery from '../components/Gallery.js';
+import RealEstateCounters from '../components/counter.js';
+import HomePageIntro from '../components/intro.js';
+import OurProjects from '../components/our-projects.js';
 function Home() {
   return (
     <>
-    <div className="homeVideo">
-          <ReactPlayer
-          url={homeVideo} 
-          width="100%"
-          height="100%"  
-          loop
-          playing
-          />
-    </div>
-
+ 
+    <HomePageIntro />
+    <RealEstateCounters />
     <Gallery />
 
-    <Team />
+    
+
+    
+
+   
 
     </>
     

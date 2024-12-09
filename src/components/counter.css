@@ -1,0 +1,30 @@
+.counters-section {
+    margin: 2vw;
+    padding: 3vh;
+    background-color: grey;
+    border-radius: 2vw 2vw 2vw 2vw;
+    
+    text-align: center;
+    
+    }
+.counters-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+   
+    }
+.counter-item {
+    margin: 2vw;
+    text-align: center;
+    flex: 1;
+    }
+.counter-value {
+    font-size: 3vw;
+    color: #D3D9D4;
+    
+    }
+.counter-label {
+    font-size: 2vw;
+    color: #D3D9D4;
+    }

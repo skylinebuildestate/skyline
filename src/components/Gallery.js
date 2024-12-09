@@ -21,25 +21,21 @@ const Gallery = () => {
     <div className='gallery'>
         
         <div className='gallery-heading'>
-            <h1>Skyline Buildestates</h1>
-            <p> We have building the skyline of Jaipur since 2009. At Skyline Buildestates, we take pride in ourselves on delivering exceptional construction and 
-            real estate development services. Our team of dedicated professionals works tirelessly to 
-            create innovative and sustainable spaces that not only meet but exceed our clients' expectations.
-             With a commitment to quality, transparency, and customer satisfaction, we transform visions into 
-             reality, crafting residential and commercial properties that stand the test of time. 
-             Explore our portfolio to see the skyline of possibilities we can build together.</p>
+           
+            <img src={process.env.PUBLIC_URL + '/images/fresco-logo.png'}/>
+
         </div>
 
         <div className="gallery-container">
-        <Carousel
-            autoPlay
-            infiniteLoop
-            showArrows = {false}
-            showStatus={false}
-            showThumbs={false}
-            interval={2500} // Auto-slide interval in milliseconds (5 seconds)
-            axis="horizontal"
-        >
+          <Carousel
+              autoPlay
+              infiniteLoop
+              showArrows = {false}
+              showStatus={false}
+              showThumbs={false}
+              interval={2300} // Auto-slide interval in milliseconds (5 seconds)
+              axis="horizontal"
+          >
             {projects.map(project => (
             <div key={project.id} className="slide-item">
                 <img src={project.imageUrl} alt={project.name} />
