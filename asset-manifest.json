@@ -1,47 +1,18 @@
 {
   "files": {
-    "main.css": "/skyline/static/css/main.bfac699e.css",
-    "main.js": "/skyline/static/js/main.09b1eb07.js",
-    "reactPlayerYouTube.js": "/skyline/static/js/reactPlayerYouTube.531585be.chunk.js",
-    "reactPlayerSoundCloud.js": "/skyline/static/js/reactPlayerSoundCloud.4ee94330.chunk.js",
-    "reactPlayerVimeo.js": "/skyline/static/js/reactPlayerVimeo.7e31af21.chunk.js",
-    "reactPlayerMux.js": "/skyline/static/js/reactPlayerMux.bcc4aad5.chunk.js",
-    "reactPlayerFacebook.js": "/skyline/static/js/reactPlayerFacebook.04b98de8.chunk.js",
-    "reactPlayerStreamable.js": "/skyline/static/js/reactPlayerStreamable.2f3c04ea.chunk.js",
-    "reactPlayerWistia.js": "/skyline/static/js/reactPlayerWistia.beeffb9b.chunk.js",
-    "reactPlayerTwitch.js": "/skyline/static/js/reactPlayerTwitch.cfc352a0.chunk.js",
-    "reactPlayerDailyMotion.js": "/skyline/static/js/reactPlayerDailyMotion.58d258b2.chunk.js",
-    "reactPlayerMixcloud.js": "/skyline/static/js/reactPlayerMixcloud.419820a1.chunk.js",
-    "reactPlayerVidyard.js": "/skyline/static/js/reactPlayerVidyard.7bf5b28e.chunk.js",
-    "reactPlayerKaltura.js": "/skyline/static/js/reactPlayerKaltura.a0667671.chunk.js",
-    "reactPlayerFilePlayer.js": "/skyline/static/js/reactPlayerFilePlayer.3f04c40c.chunk.js",
-    "reactPlayerPreview.js": "/skyline/static/js/reactPlayerPreview.86d933fb.chunk.js",
-    "static/media/homeVideo.mp4": "/skyline/static/media/homeVideo.2646a8c5310313f92166.mp4",
+    "main.css": "/skyline/static/css/main.5ab54c8b.css",
+    "main.js": "/skyline/static/js/main.15166ae0.js",
     "static/media/skylineFresco2.jpg": "/skyline/static/media/skylineFresco2.ee88b6fe7e0ac5a3a220.jpg",
     "static/media/Footer.jpg": "/skyline/static/media/Footer.6ee575ac5c21c68a2261.jpg",
     "static/media/skylineFresco.jpg": "/skyline/static/media/skylineFresco.5be31b0d0b25c2dfe0e9.jpg",
     "static/media/skylineFresco3.jpg": "/skyline/static/media/skylineFresco3.8972eea0c8764b23f85a.jpg",
     "static/media/hemant_bansal.png": "/skyline/static/media/hemant_bansal.739eabeccbbd2a1c4f6c.png",
     "index.html": "/skyline/index.html",
-    "main.bfac699e.css.map": "/skyline/static/css/main.bfac699e.css.map",
-    "main.09b1eb07.js.map": "/skyline/static/js/main.09b1eb07.js.map",
-    "reactPlayerYouTube.531585be.chunk.js.map": "/skyline/static/js/reactPlayerYouTube.531585be.chunk.js.map",
-    "reactPlayerSoundCloud.4ee94330.chunk.js.map": "/skyline/static/js/reactPlayerSoundCloud.4ee94330.chunk.js.map",
-    "reactPlayerVimeo.7e31af21.chunk.js.map": "/skyline/static/js/reactPlayerVimeo.7e31af21.chunk.js.map",
-    "reactPlayerMux.bcc4aad5.chunk.js.map": "/skyline/static/js/reactPlayerMux.bcc4aad5.chunk.js.map",
-    "reactPlayerFacebook.04b98de8.chunk.js.map": "/skyline/static/js/reactPlayerFacebook.04b98de8.chunk.js.map",
-    "reactPlayerStreamable.2f3c04ea.chunk.js.map": "/skyline/static/js/reactPlayerStreamable.2f3c04ea.chunk.js.map",
-    "reactPlayerWistia.beeffb9b.chunk.js.map": "/skyline/static/js/reactPlayerWistia.beeffb9b.chunk.js.map",
-    "reactPlayerTwitch.cfc352a0.chunk.js.map": "/skyline/static/js/reactPlayerTwitch.cfc352a0.chunk.js.map",
-    "reactPlayerDailyMotion.58d258b2.chunk.js.map": "/skyline/static/js/reactPlayerDailyMotion.58d258b2.chunk.js.map",
-    "reactPlayerMixcloud.419820a1.chunk.js.map": "/skyline/static/js/reactPlayerMixcloud.419820a1.chunk.js.map",
-    "reactPlayerVidyard.7bf5b28e.chunk.js.map": "/skyline/static/js/reactPlayerVidyard.7bf5b28e.chunk.js.map",
-    "reactPlayerKaltura.a0667671.chunk.js.map": "/skyline/static/js/reactPlayerKaltura.a0667671.chunk.js.map",
-    "reactPlayerFilePlayer.3f04c40c.chunk.js.map": "/skyline/static/js/reactPlayerFilePlayer.3f04c40c.chunk.js.map",
-    "reactPlayerPreview.86d933fb.chunk.js.map": "/skyline/static/js/reactPlayerPreview.86d933fb.chunk.js.map"
+    "main.5ab54c8b.css.map": "/skyline/static/css/main.5ab54c8b.css.map",
+    "main.15166ae0.js.map": "/skyline/static/js/main.15166ae0.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfac699e.css",
-    "static/js/main.09b1eb07.js"
+    "static/css/main.5ab54c8b.css",
+    "static/js/main.15166ae0.js"
   ]
 }
