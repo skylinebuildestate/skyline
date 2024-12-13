@@ -1,18 +1,41 @@
 {
   "files": {
-    "main.css": "/skyline/static/css/main.5ab54c8b.css",
-    "main.js": "/skyline/static/js/main.15166ae0.js",
+    "main.css": "/skyline/static/css/main.8b773576.css",
+    "main.js": "/skyline/static/js/main.5a879793.js",
+    "static/media/Cam12_Final.png": "/skyline/static/media/Cam12_Final.e8a915674c65093e2d88.png",
     "static/media/skylineFresco2.jpg": "/skyline/static/media/skylineFresco2.ee88b6fe7e0ac5a3a220.jpg",
+    "static/media/swimmingpool.jpg": "/skyline/static/media/swimmingpool.ee88b6fe7e0ac5a3a220.jpg",
+    "static/media/Cam13_Final.jpg": "/skyline/static/media/Cam13_Final.8b50ba587a4fbee9f3d8.jpg",
+    "static/media/yogadeck.jpg": "/skyline/static/media/yogadeck.10a48c6e483b867e0d74.jpg",
+    "static/media/studio cam-02.jpg": "/skyline/static/media/studio cam-02.e3cfb2b6061b91a0c7a1.jpg",
+    "static/media/stilt floor plan.jpg": "/skyline/static/media/stilt floor plan.46b76ba10ec9aefc7c1b.jpg",
+    "static/media/Basement floor.jpg": "/skyline/static/media/Basement floor.f5ca9a1f64565ddfa3b3.jpg",
     "static/media/Footer.jpg": "/skyline/static/media/Footer.6ee575ac5c21c68a2261.jpg",
+    "static/media/8th floor plan.jpg": "/skyline/static/media/8th floor plan.415ae523792a3f6b5977.jpg",
+    "static/media/terrace floor plan.jpg": "/skyline/static/media/terrace floor plan.90139767f4a3ef758154.jpg",
+    "static/media/02.jpg": "/skyline/static/media/02.5be31b0d0b25c2dfe0e9.jpg",
     "static/media/skylineFresco.jpg": "/skyline/static/media/skylineFresco.5be31b0d0b25c2dfe0e9.jpg",
+    "static/media/cam-23.jpg": "/skyline/static/media/cam-23.aaacf97f611ac9a0d0fb.jpg",
     "static/media/skylineFresco3.jpg": "/skyline/static/media/skylineFresco3.8972eea0c8764b23f85a.jpg",
+    "static/media/cam-18.jpg": "/skyline/static/media/cam-18.703b63da1eb96ffc081d.jpg",
+    "static/media/bg_green.png": "/skyline/static/media/bg_green.2f370017474372d5eed9.png",
+    "static/media/Studio.png": "/skyline/static/media/Studio.9096edd80efec738c940.png",
+    "static/media/1bhk.jpg": "/skyline/static/media/1bhk.da7c1332d6ce291e8b2a.jpg",
     "static/media/hemant_bansal.png": "/skyline/static/media/hemant_bansal.739eabeccbbd2a1c4f6c.png",
+    "static/media/bg_light.png": "/skyline/static/media/bg_light.1a2f283fcc3a8fc4c613.png",
+    "static/media/bg_dark.png": "/skyline/static/media/bg_dark.ca034e0ada86ea20abb4.png",
+    "static/media/fresco-logo.png": "/skyline/static/media/fresco-logo.f3126df25105778355ad.png",
+    "static/media/861162.png": "/skyline/static/media/861162.89afd3d9896df0075e08.png",
+    "static/media/2160153.png": "/skyline/static/media/2160153.03242d4514a3239dff83.png",
+    "static/media/157839.png": "/skyline/static/media/157839.bf9f053a9202f15751eb.png",
+    "static/media/69840.png": "/skyline/static/media/69840.30157dcb1abfb995ff7a.png",
+    "static/media/225993.png": "/skyline/static/media/225993.94005bb970796535f619.png",
     "index.html": "/skyline/index.html",
-    "main.5ab54c8b.css.map": "/skyline/static/css/main.5ab54c8b.css.map",
-    "main.15166ae0.js.map": "/skyline/static/js/main.15166ae0.js.map"
+    "main.8b773576.css.map": "/skyline/static/css/main.8b773576.css.map",
+    "main.5a879793.js.map": "/skyline/static/js/main.5a879793.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ab54c8b.css",
-    "static/js/main.15166ae0.js"
+    "static/css/main.8b773576.css",
+    "static/js/main.5a879793.js"
   ]
 }
